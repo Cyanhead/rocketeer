@@ -12,22 +12,35 @@ const Homepage = () => {
           </Heading>
           <Text maxW="800px">
             Rocketeer is a lite project built to show{' '}
-            <Link href="https://www.spacex.com/">SpaceX</Link> rockets that have
-            been launched so far. It uses the{' '}
-            <Link href="https://api.spacex.land/graphql/">
+            <Link isExternal href="https://www.spacex.com/">
+              SpaceX
+            </Link>{' '}
+            rockets that have been launched so far. It uses the{' '}
+            <Link isExternal href="https://api.spacex.land/graphql/">
               SpaceX GraphQL API
             </Link>{' '}
             to fetch data and{' '}
-            <Link href="https://chakra-ui.com/">Chakra UI</Link> for styling.
+            <Link isExternal href="https://chakra-ui.com/">
+              Chakra UI
+            </Link>{' '}
+            for styling.
           </Text>
         </Flex>
         <GetRockets />
         <Center>
           <Text>
             Bootstrapped using{' '}
-            <Link href="https://chakra-ui.com/">Chakra UI</Link> and{' '}
-            <Link href="https://www.apollographql.com/">Apollo</Link> by{' '}
-            <Link href="https://www.bunmi.tech/">Bunmi Oye</Link>{' '}
+            <Link isExternal href="https://chakra-ui.com/">
+              Chakra UI
+            </Link>{' '}
+            and{' '}
+            <Link isExternal href="https://www.apollographql.com/">
+              Apollo
+            </Link>{' '}
+            by{' '}
+            <Link isExternal href="https://www.bunmi.tech/">
+              Bunmi Oye
+            </Link>{' '}
           </Text>
         </Center>
       </Box>
